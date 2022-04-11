@@ -1,1 +1,149 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T12:08:22.847Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.79 Safari/537.36" version="17.4.2" etag="XU9SNsrPR2y2lmLQqR5-" type="github"><diagram id="BHrAFSdVLvNSrYM-HpFk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-11T12:11:00.839Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.79 Safari/537.36" etag="10PEiuYCcuH0K-1TR2DT" version="17.4.2" type="github">
+  <diagram id="BHrAFSdVLvNSrYM-HpFk" name="Page-1">
+    <mxGraphModel dx="1113" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="30" width="420" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-2" value="Shares" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="mYsw82pSy2jOj6QAWWYs-2">
+          <mxGeometry x="45" y="157" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="505" y="460" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-5" value="DEX" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-24" value="completeOrder(orderId)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="mYsw82pSy2jOj6QAWWYs-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="325" y="230" as="sourcePoint" />
+            <mxPoint x="55" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="296.5" y="230" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="365" y="140" width="10" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-7" value="SELL" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="227" width="630" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-8" value="BUY" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="167" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-9" value="Taker" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" vertex="1" parent="1">
+          <mxGeometry x="630" y="80" width="20" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-10" value="Maker" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="20" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-11" value="WETH" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="80" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="mYsw82pSy2jOj6QAWWYs-11">
+          <mxGeometry x="45" y="106" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="mYsw82pSy2jOj6QAWWYs-11">
+          <mxGeometry x="45" y="293" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="mYsw82pSy2jOj6QAWWYs-11">
+          <mxGeometry x="45" y="360" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-15" value="createOrder(&amp;nbsp;BUY/SELL,&amp;nbsp;&lt;br&gt;amount, price)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;startArrow=none;" edge="1" parent="1" source="mYsw82pSy2jOj6QAWWYs-6">
+          <mxGeometry x="0.3618" y="-1" width="80" relative="1" as="geometry">
+            <mxPoint x="129.5" y="159" as="sourcePoint" />
+            <mxPoint x="369.5" y="159" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="159" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-17" value="approve(DEX, amount)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="mYsw82pSy2jOj6QAWWYs-5" target="mYsw82pSy2jOj6QAWWYs-11">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="240" as="sourcePoint" />
+            <mxPoint x="450" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="200" />
+              <mxPoint x="320" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-18" value="approve(DEX, amount)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="369.5" y="252" as="sourcePoint" />
+            <mxPoint x="509.5" y="252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-19" value="BUY" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="340" width="630" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-20" value="SELL" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="430" width="630" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-22" value="Blockchain EVM Infrastructure&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-23" value="approve(DEX, amount)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="369.5" y="450" as="sourcePoint" />
+            <mxPoint x="229.5" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="450" />
+              <mxPoint x="310" y="450" />
+              <mxPoint x="280" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-25" value="transferFrom(Maker, &lt;br&gt;Taker, amount)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="369.5" y="389" as="sourcePoint" />
+            <mxPoint x="229.5" y="389" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-28" value="transferFrom(Taker, &lt;br&gt;Maker, amount)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="369.5" y="503" as="sourcePoint" />
+            <mxPoint x="229.5" y="503" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-29" value="transferFrom(Maker, &lt;br&gt;Taker, amount)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370.5" y="477" as="sourcePoint" />
+            <mxPoint x="510.5" y="477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-30" value="" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" target="mYsw82pSy2jOj6QAWWYs-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="129.5" y="159" as="sourcePoint" />
+            <mxPoint x="369.5" y="159" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="505" y="352" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-32" value="approve(DEX, amount)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="369.5" as="sourcePoint" />
+            <mxPoint x="510" y="369.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYsw82pSy2jOj6QAWWYs-33" value="transferFrom(Taker, &lt;br&gt;Maker, amount)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="369.5" y="407" as="sourcePoint" />
+            <mxPoint x="509.5" y="407" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
